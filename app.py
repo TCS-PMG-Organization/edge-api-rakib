@@ -335,7 +335,7 @@ def call_fetch_master_config_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_master_config/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_config_obj", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_config_obj", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -374,7 +374,7 @@ def call_update_data_to_master_config_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/update_data_to_master_config/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/update_data_to_config_obj",headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/update_data_to_config_obj",headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -414,7 +414,7 @@ def call_create_bank_account_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/create_bank_account/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/create_bank_account", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/create_bank_account", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -459,7 +459,7 @@ def call_fetch_account_form_details_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_account_form_details/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_account_form_details", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_account_form_details", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -486,7 +486,7 @@ def call_fetch_config_obj_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_config_obj/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_config_obj", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_config_obj", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -527,7 +527,7 @@ def call_update_data_to_config_obj_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/update_data_to_config_obj/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/update_data_to_config_obj",headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/update_data_to_config_obj",headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -591,7 +591,7 @@ def call_get_processed_indicator_count_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/get_processed_indicator_count/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/get_processed_indicator_count", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/get_processed_indicator_count", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -631,7 +631,7 @@ def call_create_dormant_account_request_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/create_dormant_account_request/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/create_dormant_account_request", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/create_dormant_account_request", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -676,7 +676,7 @@ def call_fetch_dormant_account_form_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_dormant_account_form/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_dormant_account_form", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_dormant_account_form", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -703,7 +703,7 @@ def call_fetch_dormant_config_obj_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_dormant_config_obj/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_dormant_config_obj", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_dormant_config_obj", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -744,7 +744,7 @@ def call_update_dormant_config_obj_data_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/update_dormant_config_obj_data/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/update_dormant_config_obj_data",headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/update_dormant_config_obj_data",headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -808,7 +808,7 @@ def call_get_dormant_processed_count_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/get_dormant_processed_count/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/get_dormant_processed_count", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/get_dormant_processed_count", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -848,7 +848,7 @@ def call_create_cheque_book_request_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/create_cheque_book_request/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/create_cheque_book_request", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/create_cheque_book_request", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -893,7 +893,7 @@ def call_fetch_cheque_book_form_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_cheque_book_form/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_cheque_book_form", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_cheque_book_form", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -920,7 +920,7 @@ def call_fetch_cheque_book_config_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_cheque_book_config/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_cheque_book_config", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_cheque_book_config", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -961,7 +961,7 @@ def call_update_cheque_book_config_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/update_cheque_book_config/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/update_cheque_book_config",headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/update_cheque_book_config",headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -1025,7 +1025,7 @@ def call_get_cheque_processed_count_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/get_cheque_processed_count/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/get_cheque_processed_count", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/get_cheque_processed_count", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -1065,7 +1065,7 @@ def call_create_credit_card_request_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/create_credit_card_request/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/create_credit_card_request", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/create_credit_card_request", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -1110,7 +1110,7 @@ def call_fetch_credit_card_form_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_credit_card_form/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_credit_card_form", headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_credit_card_form", headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -1137,7 +1137,7 @@ def call_fetch_credit_card_config_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/fetch_credit_card_config/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/fetch_credit_card_config", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/fetch_credit_card_config", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
@@ -1178,7 +1178,7 @@ def call_update_credit_card_config_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/update_credit_card_config/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, json=body, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/update_credit_card_config",headers=headers, json=body, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/update_credit_card_config",headers=headers, json=body, verify=False)
 
     print(response.json)
     return response.json()
@@ -1242,7 +1242,7 @@ def call_get_credit_processed_count_api():
 
     url = "https://"+WSO2_DOMAIN+":"+WSO2_PORT+"/get_credit_processed_count/"+WSO2_API_VERSION
     #response = requests.post(url, headers=headers, verify=False)
-    response = requests.post("http://edge-open-banking-api-ibm-cloud-edge-banking-app.appdev-cloudnativ-915719-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/get_credit_processed_count", headers=headers, verify=False)
+    response = requests.post("http://edge-open-api-fs-cloud-app-test-open-banking.mgmt-pot01-cluster-1fa025a294811d2b43b68d6ffd4c8b58-i000.us-east.containers.appdomain.cloud/get_credit_processed_count", headers=headers, verify=False)
 
     print(response.json)
     return response.json()
